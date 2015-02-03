@@ -1,0 +1,589 @@
+40: 2 2 2 5
+distrbute
+diffrence
+2
+3
+4
+5
+6
+7
+8
+9
+10
+anokhi-Satellite-L755
+NAME     LINE         TIME             COMMENT
+anokhi   :0           2015-01-23 17:11 (:0)
+anokhi   pts/0        2015-01-23 17:16 (:0)
+1,3c1,3
+< hello
+< node name : uname -n
+< distrbte
+---
+> hello command
+> hello	command
+> distrbute
+5,47c5,8
+< write nos : seq 1 10 : print nos from 1 to 10
+< write nos : seq 1 3 8 : print nos till 8 with difference of 3
+< sudo shutdown -r time: shutsdown in given time
+< ctrl+c : cancel command
+< diff file1 file2 : find plagiarism line by line
+< cmp file1 file2: compares file byte by byte
+< du : disk usage of all files
+< df : disk usage
+< tty - gives the pointer name of any i/o connected.
+< who : shows who you are
+< fsck : checks and repairs unix system 
+< su passwd root : set root password
+< aspell -a : online word suggest
+< aspell -c filename : recognizes wrong word and suggests to change it
+< whereis
+< cpio
+< iw
+< znew
+< chown
+< enable
+< last
+< sort
+< yes
+< unexpand
+< sync : flush file system buffers
+< ifconfig
+< startx : side panel goes away .: starts an x session protects your screen from x users
+< ctrl+alt+F7 : revert startx
+< ps -u :
+< who -b : info of last boot
+< uname -a  : prints all information about system
+< sdiff : side by side merge of file differences : shows 2 files side by side on terminal
+< screen 
+< cal : horizontal calender
+< ncal : vertical calender
+< bzip: zips a file to bz2 format
+< lsusb tv : 
+< head
+< top
+< jobs
+< watch
+< 
+< 
+---
+> word
+> just
+> come
+> diffrence
+/dev/pts/0
+/:  Bus 02.Port 1: Dev 1, Class=root_hub, Driver=ehci-pci/2p, 480M
+    |__ Port 1: Dev 2, If 0, Class=Hub, Driver=hub/6p, 480M
+/:  Bus 01.Port 1: Dev 1, Class=root_hub, Driver=ehci-pci/2p, 480M
+    |__ Port 1: Dev 2, If 0, Class=Hub, Driver=hub/6p, 480M
+        |__ Port 4: Dev 3, If 0, Class=Video, Driver=uvcvideo, 480M
+        |__ Port 4: Dev 3, If 1, Class=Video, Driver=uvcvideo, 480M
+hello
+node name : uname -n
+distrbte
+sell
+write nos : seq 1 10 : print nos from 1 to 10
+write nos : seq 1 3 8 : print nos till 8 with difference of 3
+sudo shutdown -r time: shutsdown in given time
+ctrl+c : cancel command
+diff file1 file2 : find plagiarism line by line
+cmp file1 file2: compares file byte by byte
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/sda6       16572284 14718340    989076  94% /
+none                   4        0         4   0% /sys/fs/cgroup
+udev              953036        4    953032   1% /dev
+tmpfs             192764     1060    191704   1% /run
+none                5120        0      5120   0% /run/lock
+none              963820      152    963668   1% /run/shm
+none              102400       44    102356   1% /run/user
+24	./example/Wordcount/bin/org/myorg
+28	./example/Wordcount/bin/org
+32	./example/Wordcount/bin
+16	./example/Wordcount/src/org/myorg
+20	./example/Wordcount/src/org
+24	./example/Wordcount/src
+72	./example/Wordcount
+16	./example/VoteCountInput
+16	./example/mapreduce/bin/com/test
+20	./example/mapreduce/bin/com
+24	./example/mapreduce/bin
+16	./example/mapreduce/src/com/test
+20	./example/mapreduce/src/com
+24	./example/mapreduce/src
+64	./example/mapreduce
+16	./example/BookCrosing/bin/com/orzota/bookx
+20	./example/BookCrosing/bin/com/orzota
+24	./example/BookCrosing/bin/com
+28	./example/BookCrosing/bin
+16	./example/BookCrosing/src/com/orzota/bookx
+20	./example/BookCrosing/src/com/orzota
+24	./example/BookCrosing/src/com
+28	./example/BookCrosing/src
+72	./example/BookCrosing
+16	./example/Sizecount/bin/org/myorg
+20	./example/Sizecount/bin/org
+24	./example/Sizecount/bin
+8	./example/Sizecount/src/org/myorg
+12	./example/Sizecount/src/org
+16	./example/Sizecount/src
+56	./example/Sizecount
+16	./example/HadoopMapReduce/bin/com/mapreduce
+20	./example/HadoopMapReduce/bin/com
+24	./example/HadoopMapReduce/bin
+16	./example/HadoopMapReduce/src/com/mapreduce
+20	./example/HadoopMapReduce/src/com
+24	./example/HadoopMapReduce/src
+64	./example/HadoopMapReduce
+16	./example/ColourCount/bin/com/example
+20	./example/ColourCount/bin/com
+24	./example/ColourCount/bin
+16	./example/ColourCount/src/com/example
+20	./example/ColourCount/src/com
+24	./example/ColourCount/src
+64	./example/ColourCount
+16	./example/Votcount/bin/com/mapper
+20	./example/Votcount/bin/com
+24	./example/Votcount/bin
+4	./example/Votcount/.settings
+16	./example/Votcount/src/com/mapper
+20	./example/Votcount/src/com
+24	./example/Votcount/src
+68	./example/Votcount
+16	./example/WordMapper/bin/hadoop/mapreduce
+20	./example/WordMapper/bin/hadoop
+24	./example/WordMapper/bin
+8	./example/WordMapper/src/hadoop/mapreduce
+12	./example/WordMapper/src/hadoop
+16	./example/WordMapper/src
+56	./example/WordMapper
+44	./example/MaxTemperature/bin/hadoop/tem
+48	./example/MaxTemperature/bin/hadoop
+52	./example/MaxTemperature/bin
+8	./example/MaxTemperature/.settings
+12	./example/MaxTemperature/input
+28	./example/MaxTemperature/src/hadoop/tem
+32	./example/MaxTemperature/src/hadoop
+36	./example/MaxTemperature/src
+120	./example/MaxTemperature
+656	./example
+4	./.git/branches
+4	./.git/objects/pack
+4	./.git/objects/info
+12	./.git/objects
+8	./.git/info
+4	./.git/refs/heads
+4	./.git/refs/tags
+12	./.git/refs
+44	./.git/hooks
+96	./.git
+28	./R Codes
+1400	.
+
+
+aspell -a : online word suggest
+aspell -c filename : recognizes wrong word and suggests to change it
+bzip: zips a file to bz2 format
+cal : horizontal calender
+chown
+cmp file1 file2: compares file byte by byte
+cpio
+ctrl+alt+F7 : revert startx
+ctrl+c : cancel command
+df : disk usage
+diff file1 file2 : find plagiarism line by line
+distrbte
+du : disk usage of all files
+enable
+fsck : checks and repairs unix system 
+head
+hello
+ifconfig
+iw
+jobs
+last
+lsusb tv : 
+ncal : vertical calender
+node name : uname -n
+ps -u :
+screen 
+sdiff : side by side merge of file differences : shows 2 files side by side on terminal
+sell
+sort
+startx : side panel goes away .: starts an x session protects your screen from x users
+sudo shutdown -r time: shutsdown in given time
+su passwd root : set root password
+sync : flush file system buffers
+top
+tty - gives the pointer name of any i/o connected.
+uname -a  : prints all information about system
+unexpand
+watch
+whereis
+who -b : info of last boot
+who : shows who you are
+write nos : seq 1 10 : print nos from 1 to 10
+write nos : seq 1 3 8 : print nos till 8 with difference of 3
+yes
+znew
+Usage:	iw [options] command
+Options:
+	--debug		enable netlink debugging
+	--version	show version (3.4)
+Commands:
+	help [command]
+	event [-t] [-r] [-f]
+	phy
+	list
+	phy <phyname> info
+	dev
+	dev <devname> info
+	dev <devname> del
+	dev <devname> interface add <name> type <type> [mesh_id <meshid>] [4addr on|off] [flags <flag>*]
+	phy <phyname> interface add <name> type <type> [mesh_id <meshid>] [4addr on|off] [flags <flag>*]
+	dev <devname> ibss join <SSID> <freq in MHz> [HT20|HT40+|HT40-|NOHT] [fixed-freq] [<fixed bssid>] [beacon-interval <TU>] [basic-rates <rate in Mbps,rate2,...>] [mcast-rate <rate in Mbps>] [key d:0:abcde]
+	dev <devname> ibss leave
+	dev <devname> station dump
+	dev <devname> station set <MAC address> vlan <ifindex>
+	dev <devname> station set <MAC address> plink_action <open|block>
+	dev <devname> station del <MAC address>
+	dev <devname> station get <MAC address>
+	dev <devname> survey dump
+	dev <devname> mesh leave
+	dev <devname> mesh join <mesh ID> [mcast-rate <rate in Mbps>] [<param>=<value>]*
+	dev <devname> mpath dump
+	dev <devname> mpath set <destination MAC address> next_hop <next hop MAC address>
+	dev <devname> mpath new <destination MAC address> next_hop <next hop MAC address>
+	dev <devname> mpath del <MAC address>
+	dev <devname> mpath get <MAC address>
+	dev <devname> scan [-u] [freq <freq>*] [ies <hex as 00:11:..>] [ssid <ssid>*|passive]
+	dev <devname> scan trigger [freq <freq>*] [ies <hex as 00:11:..>] [ssid <ssid>*|passive]
+	dev <devname> scan dump [-u]
+	reg get
+	reg set <ISO/IEC 3166-1 alpha2>
+	dev <devname> connect [-w] <SSID> [<freq in MHz>] [<bssid>] [key 0:abcde d:1:6162636465]
+	dev <devname> disconnect
+	dev <devname> link
+	dev <devname> offchannel <freq> <duration>
+	dev <devname> cqm rssi <threshold|off> [<hysteresis>]
+	phy <phyname> wowlan show 
+	phy <phyname> wowlan disable 
+	phy <phyname> wowlan enable [any] [disconnect] [magic-packet] [gtk-rekey-failure] [eap-identity-request] [4way-handshake] [rfkill-release] [patterns <pattern>*]
+	dev <devname> roc start <freq> <time>
+	phy <phyname> set antenna <bitmap> | all | <tx bitmap> <rx bitmap>
+	dev <devname> set txpower <auto|fixed|limit> [<tx power in mBm>]
+	phy <phyname> set txpower <auto|fixed|limit> [<tx power in mBm>]
+	phy <phyname> set distance <distance>
+	phy <phyname> set coverage <coverage class>
+	phy <phyname> set netns <pid>
+	phy <phyname> set rts <rts threshold|off>
+	phy <phyname> set frag <fragmentation threshold|off>
+	dev <devname> set channel <channel> [HT20|HT40+|HT40-]
+	phy <phyname> set channel <channel> [HT20|HT40+|HT40-]
+	dev <devname> set freq <freq> [HT20|HT40+|HT40-]
+	phy <phyname> set freq <freq> [HT20|HT40+|HT40-]
+	phy <phyname> set name <new name>
+	dev <devname> set peer <MAC address>
+	dev <devname> set noack_map <map>
+	dev <devname> set 4addr <on|off>
+	dev <devname> set type <type>
+	dev <devname> set meshid <meshid>
+	dev <devname> set monitor <flag>*
+	dev <devname> set mesh_param <param>=<value> [<param>=<value>]*
+	dev <devname> set power_save <on|off>
+	dev <devname> set bitrates [legacy-<2.4|5> <legacy rate in Mbps>*] [mcs-<2.4|5> <MCS index>*]
+	dev <devname> get mesh_param [<param>]
+	dev <devname> get power_save <param>
+
+You can omit the 'phy' or 'dev' if the identification is unique,
+e.g. "iw wlan0 info" or "iw phy0 info". (Don't when scripting.)
+
+Do NOT screenscrape this tool, we don't consider its output stable.
+
+dnammoc olleh
+dnammoc	olleh
+etubrtsid
+lles
+drow
+tsuj
+emoc
+ecnerffid
+anokhi   pts/0        :0               Fri Jan 23 17:16   still logged in   
+anokhi   :0           :0               Fri Jan 23 17:11   still logged in   
+reboot   system boot  3.13.0-32-generi Fri Jan 23 11:41 - 17:17  (05:36)    
+anokhi   pts/0        :0               Fri Jan 23 16:17 - crash  (-4:-36)   
+anokhi   pts/0        :0               Fri Jan 23 16:12 - 16:13  (00:00)    
+anokhi   pts/0        :0               Fri Jan 23 16:03 - 16:05  (00:01)    
+anokhi   pts/0        :0               Fri Jan 23 14:54 - 15:08  (00:14)    
+anokhi   pts/23       :0               Fri Jan 23 14:35 - 14:48  (00:12)    
+anokhi   pts/13       :0               Fri Jan 23 14:34 - crash  (-2:-53)   
+anokhi   :0           :0               Fri Jan 23 14:33 - crash  (-2:-52)   
+reboot   system boot  3.13.0-32-generi Fri Jan 23 14:33 - 17:17  (02:44)    
+anokhi   pts/1        :0               Fri Jan 23 14:18 - down   (00:14)    
+anokhi   :0           :0               Fri Jan 23 14:17 - down   (00:14)    
+reboot   system boot  3.13.0-32-generi Fri Jan 23 14:17 - 14:32  (00:14)    
+anokhi   :0           :0               Thu Jan 22 17:56 - down   (00:21)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 17:56 - 18:18  (00:21)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 17:43 - 17:47  (00:04)    
+hduser   pts/10       anokhi           Thu Jan 22 16:34 - 16:50  (00:16)    
+hduser   pts/10       anokhi           Thu Jan 22 16:32 - 16:33  (00:01)    
+anokhi   pts/0        :0               Thu Jan 22 16:28 - down   (01:13)    
+anokhi   pts/10       :0               Thu Jan 22 16:25 - 16:26  (00:00)    
+hduser   pts/0        anokhi           Thu Jan 22 16:22 - 16:26  (00:03)    
+anokhi   :0           :0               Thu Jan 22 16:20 - down   (01:22)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 16:19 - 17:42  (01:22)    
+hduser   pts/23       anokhi           Thu Jan 22 16:17 - down   (00:01)    
+anokhi   pts/0        :0               Thu Jan 22 16:16 - 16:18  (00:02)    
+hduser   pts/11       anokhi           Thu Jan 22 16:10 - down   (00:08)    
+anokhi   pts/0        :0               Thu Jan 22 15:56 - 16:15  (00:19)    
+anokhi   :0           :0               Thu Jan 22 15:49 - down   (00:30)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 15:48 - 16:19  (00:30)    
+anokhi   :0           :0               Thu Jan 22 14:06 - down   (00:27)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 14:05 - 14:33  (00:27)    
+anokhi   pts/12       :0               Thu Jan 22 13:38 - 14:03  (00:25)    
+anokhi   pts/0        :0               Thu Jan 22 13:10 - 14:03  (00:53)    
+anokhi   pts/0        :0               Thu Jan 22 12:58 - 13:10  (00:11)    
+anokhi   pts/0        :0               Thu Jan 22 12:13 - 12:13  (00:00)    
+anokhi   pts/0        :0               Thu Jan 22 12:12 - 12:12  (00:00)    
+anokhi   :0           :0               Thu Jan 22 12:10 - down   (01:53)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 12:10 - 14:04  (01:53)    
+anokhi   pts/10       :0               Thu Jan 22 07:41 - 07:45  (00:04)    
+anokhi   pts/0        :0               Thu Jan 22 07:19 - 08:07  (00:48)    
+anokhi   :0           :0               Thu Jan 22 06:51 - down   (01:16)    
+reboot   system boot  3.13.0-32-generi Thu Jan 22 06:51 - 08:08  (01:16)    
+anokhi   pts/0        :0               Wed Jan 21 23:39 - 00:17  (00:38)    
+anokhi   pts/13       :0               Wed Jan 21 23:07 - 00:17  (01:09)    
+anokhi   :0           :0               Wed Jan 21 23:07 - down   (01:12)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 23:06 - 00:19  (01:12)    
+anokhi   pts/12       :0               Wed Jan 21 20:13 - 21:00  (00:47)    
+anokhi   :0           :0               Wed Jan 21 20:13 - down   (00:48)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 20:12 - 21:01  (00:48)    
+anokhi   pts/0        :0               Wed Jan 21 18:09 - 19:16  (01:06)    
+anokhi   pts/8        :0               Wed Jan 21 18:06 - 18:06  (00:00)    
+anokhi   pts/0        :0               Wed Jan 21 18:05 - 18:06  (00:01)    
+anokhi   pts/0        :0               Wed Jan 21 18:02 - 18:03  (00:01)    
+anokhi   pts/8        :0               Wed Jan 21 18:00 - 18:00  (00:00)    
+anokhi   :0           :0               Wed Jan 21 17:59 - down   (01:17)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 17:58 - 19:16  (01:17)    
+anokhi   pts/0        :0               Wed Jan 21 17:57 - 17:58  (00:01)    
+anokhi   :0           :0               Wed Jan 21 17:55 - down   (00:02)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 17:55 - 17:58  (00:02)    
+root     tty1                          Wed Jan 21 17:53 - down   (00:01)    
+anokhi   :0           :0               Wed Jan 21 17:53 - down   (00:01)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 17:52 - 17:54  (00:01)    
+anokhi   tty1                          Wed Jan 21 17:44 - down   (00:07)    
+anokhi   :0           :0               Wed Jan 21 17:44 - down   (00:08)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 17:43 - 17:52  (00:08)    
+anokhi   :0           :0               Wed Jan 21 14:11 - down   (00:00)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 14:11 - 14:11  (00:00)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 13:56 - 14:11  (00:14)    
+anokhi   :0           :0               Wed Jan 21 13:55 - down   (00:00)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 13:55 - 13:56  (00:00)    
+anokhi   tty2                          Wed Jan 21 12:54 - down   (00:03)    
+hduser1  :0           :0               Wed Jan 21 12:53 - down   (00:04)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 12:53 - 12:58  (00:04)    
+anokhi   :0           :0               Wed Jan 21 12:49 - down   (00:00)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 12:49 - 12:50  (00:00)    
+anokhi   :0           :0               Wed Jan 21 12:48 - down   (00:00)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 12:47 - 12:48  (00:00)    
+anokhi   pts/0        :0               Wed Jan 21 12:46 - 12:46  (00:00)    
+anokhi   pts/0        :0               Wed Jan 21 12:45 - 12:45  (00:00)    
+anokhi   pts/0        :0               Wed Jan 21 12:44 - 12:45  (00:00)    
+anokhi   pts/0        :0               Wed Jan 21 12:43 - 12:44  (00:01)    
+anokhi   pts/0        :0               Wed Jan 21 12:42 - 12:43  (00:00)    
+anokhi   pts/0        :0               Wed Jan 21 12:42 - 12:42  (00:00)    
+anokhi   pts/0        :0               Wed Jan 21 12:18 - 12:42  (00:24)    
+anokhi   pts/12       :0               Wed Jan 21 12:08 - 12:42  (00:33)    
+anokhi   :0           :0               Wed Jan 21 12:07 - down   (00:39)    
+reboot   system boot  3.13.0-32-generi Wed Jan 21 12:07 - 12:47  (00:39)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 23:45 - 23:45  (00:00)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 14:07 - 14:08  (00:00)    
+anokhi   pts/0        :0               Tue Jan 20 11:07 - 12:55  (01:47)    
+anokhi   :0           :0               Tue Jan 20 11:06 - down   (01:49)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 11:06 - 12:55  (01:49)    
+anokhi   :0           :0               Tue Jan 20 09:01 - down   (01:50)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 09:01 - 10:51  (01:50)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 05:26 - 05:26  (00:00)    
+anokhi   :0           :0               Tue Jan 20 00:10 - down   (00:09)    
+reboot   system boot  3.13.0-32-generi Tue Jan 20 00:09 - 00:19  (00:09)    
+anokhi   :0           :0               Mon Jan 19 23:41 - down   (00:27)    
+reboot   system boot  3.13.0-32-generi Mon Jan 19 23:41 - 00:09  (00:27)    
+anokhi   pts/0        :0               Mon Jan 19 16:17 - 18:47  (02:29)    
+anokhi   pts/9        :0               Mon Jan 19 15:14 - 16:17  (01:03)    
+anokhi   pts/0        :0               Mon Jan 19 15:01 - 15:29  (00:28)    
+anokhi   pts/0        :0               Mon Jan 19 14:55 - 14:59  (00:03)    
+anokhi   :0           :0               Mon Jan 19 14:53 - down   (03:54)    
+reboot   system boot  3.13.0-32-generi Mon Jan 19 14:53 - 18:48  (03:54)    
+anokhi   pts/0        :0               Mon Jan 19 11:27 - 13:20  (01:52)    
+anokhi   :0           :0               Mon Jan 19 10:27 - down   (02:53)    
+reboot   system boot  3.13.0-32-generi Mon Jan 19 10:26 - 13:21  (02:54)    
+anokhi   :0           :0               Mon Jan 19 09:32 - down   (00:10)    
+reboot   system boot  3.13.0-32-generi Mon Jan 19 09:31 - 09:43  (00:11)    
+anokhi   pts/0        :0               Sun Jan 18 23:34 - 23:59  (00:25)    
+anokhi   :0           :0               Sun Jan 18 22:44 - down   (01:15)    
+reboot   system boot  3.13.0-32-generi Sun Jan 18 22:44 - 00:00  (01:15)    
+anokhi   :0           :0               Sat Jan 17 21:09 - down   (03:25)    
+reboot   system boot  3.13.0-32-generi Sat Jan 17 21:09 - 00:35  (03:25)    
+anokhi   pts/0        :0               Sat Jan 17 08:59 - 09:34  (00:35)    
+anokhi   pts/15       :0               Sat Jan 17 08:40 - 09:34  (00:53)    
+anokhi   pts/0        :0               Sat Jan 17 08:16 - 08:55  (00:39)    
+anokhi   pts/0        :0               Sat Jan 17 08:11 - 08:12  (00:00)    
+anokhi   :0           :0               Sat Jan 17 08:00 - down   (01:35)    
+reboot   system boot  3.13.0-32-generi Sat Jan 17 08:00 - 09:35  (01:35)    
+anokhi   pts/1        :0               Fri Jan 16 10:01 - 23:24  (13:23)    
+anokhi   :0           :0               Fri Jan 16 09:58 - down   (13:25)    
+reboot   system boot  3.13.0-32-generi Fri Jan 16 09:58 - 23:24  (13:26)    
+hduser1  :1           :1               Fri Jan 16 15:26 - crash  (-5:-27)   
+anokhi   pts/12       :0               Fri Jan 16 14:14 - crash  (-4:-16)   
+anokhi   pts/13       :0               Fri Jan 16 12:03 - crash  (-2:-5)    
+anokhi   :0           :0               Fri Jan 16 12:03 - crash  (-2:-5)    
+reboot   system boot  3.13.0-32-generi Fri Jan 16 12:03 - 23:24  (11:20)    
+anokhi   :0           :0               Tue Jan 13 20:53 - down   (00:01)    
+reboot   system boot  3.13.0-32-generi Tue Jan 13 20:52 - 20:55  (00:02)    
+anokhi   :0           :0               Tue Jan 13 12:44 - down   (00:13)    
+reboot   system boot  3.13.0-32-generi Tue Jan 13 12:44 - 12:58  (00:14)    
+reboot   system boot  3.13.0-32-generi Tue Jan 13 12:37 - 12:41  (00:03)    
+anokhi   pts/1        :0               Tue Jan 13 10:29 - down   (02:07)    
+anokhi   :0           :0               Tue Jan 13 10:16 - down   (02:20)    
+reboot   system boot  3.13.0-32-generi Tue Jan 13 10:16 - 12:37  (02:20)    
+anokhi   pts/0        :0               Mon Jan 12 20:53 - 23:31  (02:37)    
+anokhi   :0           :0               Mon Jan 12 20:45 - down   (02:46)    
+reboot   system boot  3.13.0-32-generi Mon Jan 12 20:45 - 23:32  (02:46)    
+anokhi   :1           :1               Mon Jan 12 20:42 - crash  (00:03)    
+hduser1  :0           :0               Mon Jan 12 20:22 - crash  (00:23)    
+reboot   system boot  3.13.0-32-generi Mon Jan 12 20:21 - 23:32  (03:10)    
+anokhi   pts/23       :0               Mon Jan 12 17:09 - 17:45  (00:35)    
+hduser1  pts/13       localhost        Mon Jan 12 17:07 - down   (00:41)    
+anokhi   pts/0        :0               Mon Jan 12 17:00 - 17:09  (00:09)    
+anokhi   pts/0        :0               Mon Jan 12 16:55 - 17:00  (00:04)    
+anokhi   pts/13       :0               Mon Jan 12 16:53 - 16:55  (00:01)    
+anokhi   pts/0        :0               Mon Jan 12 16:45 - 16:53  (00:07)    
+anokhi   pts/0        :0               Mon Jan 12 16:15 - 16:45  (00:30)    
+anokhi   pts/23       localhost        Mon Jan 12 15:36 - 16:15  (00:38)    
+anokhi   pts/0        localhost        Mon Jan 12 15:27 - 16:15  (00:47)    
+anokhi   pts/13       :0               Mon Jan 12 14:58 - 16:15  (01:17)    
+anokhi   :0           :0               Mon Jan 12 14:57 - down   (02:51)    
+reboot   system boot  3.13.0-32-generi Mon Jan 12 14:57 - 17:49  (02:51)    
+anokhi   pts/0        :0               Mon Jan 12 14:45 - 14:56  (00:10)    
+anokhi   pts/14       :0               Mon Jan 12 14:06 - 14:45  (00:39)    
+anokhi   pts/0        :0               Mon Jan 12 14:06 - 14:35  (00:28)    
+anokhi   pts/0        :0               Mon Jan 12 12:21 - 14:04  (01:42)    
+anokhi   pts/0        :0               Mon Jan 12 12:21 - 12:21  (00:00)    
+anokhi   pts/0        :0               Mon Jan 12 12:08 - 12:21  (00:13)    
+anokhi   :0           :0               Mon Jan 12 12:05 - down   (02:51)    
+reboot   system boot  3.13.0-32-generi Mon Jan 12 12:05 - 14:56  (02:51)    
+anokhi   pts/0        :0               Mon Jan 12 10:08 - crash  (01:57)    
+anokhi   :0           :0               Mon Jan 12 09:50 - crash  (02:15)    
+reboot   system boot  3.13.0-32-generi Mon Jan 12 09:50 - 14:56  (05:06)    
+anokhi   :0           :0               Sun Jan 11 11:25 - down   (00:41)    
+reboot   system boot  3.13.0-32-generi Sun Jan 11 11:25 - 12:07  (00:41)    
+anokhi   :0           :0               Sat Jan 10 14:36 - crash  (20:49)    
+reboot   system boot  3.13.0-32-generi Sat Jan 10 14:36 - 12:07  (21:31)    
+anokhi   pts/0        :0               Fri Jan  9 17:01 - crash  (21:34)    
+anokhi   pts/14       localhost        Fri Jan  9 12:37 - 13:19  (00:42)    
+anokhi   pts/0        :0               Fri Jan  9 11:28 - 13:19  (01:51)    
+anokhi   :0           :0               Fri Jan  9 11:18 - crash (1+03:18)   
+reboot   system boot  3.13.0-32-generi Fri Jan  9 11:17 - 12:07 (2+00:49)   
+anokhi   pts/1        :0               Fri Jan  9 00:43 - 00:44  (00:01)    
+anokhi   pts/1        :0               Fri Jan  9 00:34 - 00:40  (00:05)    
+anokhi   pts/1        :0               Thu Jan  8 23:20 - 00:34  (01:13)    
+anokhi   pts/14       :0               Thu Jan  8 23:01 - 23:20  (00:18)    
+anokhi   :0           :0               Thu Jan  8 23:01 - down   (01:43)    
+reboot   system boot  3.13.0-32-generi Thu Jan  8 23:01 - 00:45  (01:44)    
+anokhi   pts/23       :0               Thu Jan  8 20:22 - 20:22  (00:00)    
+anokhi   pts/11       :0               Thu Jan  8 20:20 - 22:34  (02:13)    
+anokhi   pts/11       :0               Thu Jan  8 19:57 - 20:03  (00:06)    
+anokhi   pts/1        :0               Thu Jan  8 19:49 - 20:38  (00:48)    
+anokhi   :0           :0               Thu Jan  8 18:59 - down   (03:34)    
+reboot   system boot  3.13.0-32-generi Thu Jan  8 18:59 - 22:34  (03:34)    
+anokhi   pts/0        :0               Wed Jan  7 17:23 - 12:15  (-5:-8)    
+anokhi   :0           :0               Wed Jan  7 17:06 - down   (-3:-53)   
+reboot   system boot  3.13.0-32-generi Wed Jan  7 17:05 - 13:12  (-3:-53)   
+anokhi   pts/0        :0               Wed Jan  7 16:58 - 16:59  (00:01)    
+anokhi   :0           :0               Wed Jan  7 16:51 - down   (00:08)    
+reboot   system boot  3.13.0-32-generi Wed Jan  7 16:50 - 16:59  (00:08)    
+anokhi   pts/10       localhost        Wed Jan  7 16:14 - 16:48  (00:33)    
+anokhi   pts/4        localhost        Wed Jan  7 15:56 - 16:48  (00:51)    
+anokhi   pts/0        localhost        Wed Jan  7 15:55 - 16:48  (00:52)    
+anokhi   pts/1        :0               Wed Jan  7 15:34 - 16:48  (01:13)    
+anokhi   pts/0        :0               Wed Jan  7 15:09 - 15:34  (00:25)    
+anokhi   :0           :0               Wed Jan  7 15:08 - down   (01:41)    
+reboot   system boot  3.13.0-32-generi Wed Jan  7 15:07 - 16:49  (01:41)    
+
+wtmp begins Wed Jan  7 15:07:51 2015
+eth0      Link encap:Ethernet  HWaddr e8:9a:8f:d3:7c:9b  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:371 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:43 errors:0 dropped:0 overruns:0 carrier:2
+          collisions:0 txqueuelen:1000 
+          RX bytes:75396 (75.3 KB)  TX bytes:7471 (7.4 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:226 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:226 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:19019 (19.0 KB)  TX bytes:19019 (19.0 KB)
+
+wlan0     Link encap:Ethernet  HWaddr d0:df:9a:fb:87:81  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+Linux anokhi-Satellite-L755 3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+         system boot  2015-01-23 11:41
+             total       used       free     shared    buffers     cached
+Mem:          1882        659       1222        125         16        278
+-/+ buffers/cache:        365       1517
+Swap:         3906        424       3482
+hello command						      |	hello
+hello	command						      |	node name : uname -n
+distrbute						      |	distrbte
+sell								sell
+word							      |	write nos : seq 1 10 : print nos from 1 to 10
+just							      |	write nos : seq 1 3 8 : print nos till 8 with difference of 3
+come							      |	sudo shutdown -r time: shutsdown in given time
+diffrence						      |	ctrl+c : cancel command
+							      >	diff file1 file2 : find plagiarism line by line
+							      >	cmp file1 file2: compares file byte by byte
+							      >	du : disk usage of all files
+							      >	df : disk usage
+							      >	tty - gives the pointer name of any i/o connected.
+							      >	who : shows who you are
+							      >	fsck : checks and repairs unix system 
+							      >	su passwd root : set root password
+							      >	aspell -a : online word suggest
+							      >	aspell -c filename : recognizes wrong word and suggests to ch
+							      >	whereis
+							      >	cpio
+							      >	iw
+							      >	znew
+							      >	chown
+							      >	enable
+							      >	last
+							      >	sort
+							      >	yes
+							      >	unexpand
+							      >	sync : flush file system buffers
+							      >	ifconfig
+							      >	startx : side panel goes away .: starts an x session protects
+							      >	ctrl+alt+F7 : revert startx
+							      >	ps -u :
+							      >	who -b : info of last boot
+							      >	uname -a  : prints all information about system
+							      >	sdiff : side by side merge of file differences : shows 2 file
+							      >	screen 
+							      >	cal : horizontal calender
+							      >	ncal : vertical calender
+							      >	bzip: zips a file to bz2 format
+							      >	lsusb tv : 
+							      >	head
+							      >	top
+							      >	jobs
+							      >	watch
+							      >
+							      >
+@(#) International Ispell Version 3.1.20 (but really Aspell 0.60.7-20110707)
