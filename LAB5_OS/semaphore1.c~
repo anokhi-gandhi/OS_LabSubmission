@@ -1,0 +1,238 @@
+#include<stdio.h>
+#include<stdlib.h>
+int n=0,incr=0,pno=0,cno=0,f,count;
+void producer(int);
+void consumer(int);
+
+struct node
+{
+    struct node *prev;
+    int no;
+    char type;
+    struct node *next;
+}*hs,*hd,*temp,*temp1,*temp2,*temp4;
+
+struct node s1,delay1;
+
+
+typedef struct semaphore
+{
+	//bool a;
+	struct node *ptr;
+	int a;
+}semaphore;
+semaphore s,delay;
+
+int create(char name)
+{
+    int data,w;
+ 
+    temp =(struct node *)malloc(1*sizeof(struct node));
+    temp->prev = NULL;
+    temp->next = NULL;
+    temp->type=name;
+    if(name=='c' || name=='C')
+	temp->no=cno;
+    else
+	temp->no=pno;
+    count++;
+    w=temp->no;
+return w;
+}
+ 
+ 
+/* To insert at end */
+int insert2(char name,struct node *h)
+{
+//int f;
+    if (h == NULL)
+    {
+        f=create(name);
+        h = temp;
+        temp1 = h;
+    }
+    else
+    {
+        f=create(name);
+        temp1->next = temp;
+        temp->prev = temp1;
+        temp1 = temp;
+    }
+ return f;
+}
+ 
+
+struct node* delete(struct node *h)
+{
+	struct node *data;
+    int i = 1, pos=1;
+ 
+    //printf("\n Enter position to be deleted : ");
+    //scanf("%d", &pos);
+    temp2 = h;
+ 
+    if (h == NULL)
+    {
+        printf("\n Error : Empty list no elements to delete");
+	data=NULL;
+        return;
+    }
+    else
+    {
+        while (i < pos)
+        {
+            temp2 = temp2->next;
+            i++;
+        }
+        if (i == 1)
+        {
+            if (temp2->next == NULL)
+            {
+		data=temp2;
+                printf("Node deleted from list");
+                free(temp2);
+                temp2 = h = NULL;
+                
+            }
+	    else
+	    {
+		data=temp2;
+		temp2->next->prev=NULL;
+		h=temp2->next;
+		free(temp2);
+        }
+    }
+	}
+    count--;
+return data;
+	
+}
+//delay->a=1;
+//s->ptr=hs;
+//delay->ptr=hd;
+
+//struct* delete(struct *);
+int wait(struct semaphore k,char name)
+{
+	//printf("\nIn wait type=%c",name);
+	int no;
+	printf("\n%d",k.a);
+	if(k.a==1)
+	{
+		//printf("\nIn
+		k.a=0;
+		no=0;
+	}
+	else
+	{
+		if(k.a==s.a && k.ptr==s.ptr)
+		no=insert2(name,k.ptr);
+		
+		//insert1(name);
+	}
+//printf("\n no=%d",s.a);
+return no;
+}
+
+struct semaphore signal(struct semaphore k)
+{
+struct node *data;
+//printf("\n in semaphore signal k.a=%d",k.a);
+	if(k.a==0)
+		k.a=1;
+	else
+	{
+		data=delete(k.ptr);
+		if(data->type=='c' || data->type=='C')
+		consumer(data->no);
+		else
+		producer(data->no);
+	}
+}
+
+produce()
+{
+//printf("\n In produce");
+incr++;
+}
+
+consume()
+{
+incr--;
+}
+
+
+void producer(int pno)
+{
+//printf("In producer pno=%d",pno);
+int no;
+			char type='p';
+			no=wait(s,type);
+			//printf("\nAgain in producer no=%d,pno=%d",no,pno);
+			if(pno!=no)
+			{
+			produce();
+			n++;
+			if(n==1)
+			{
+				//printf("\n In if of Producer");		
+				signal(delay);
+			}
+			signal(s);
+			}
+			else {
+			//printf("\n In else of producer");
+				}
+			
+			
+}
+void consumer(int cno)
+{
+	
+	int m,no;
+	char type;
+	type='c';
+	no=wait(delay,type);
+	if(cno!=no)
+	{
+		no=wait(s,type);
+		if(cno!=no)
+		{
+			if(n==0)
+			{
+			no=wait(delay,type);
+			if(cno!=no)
+			{
+				consume();
+				//m=n;
+				n--;
+				m=n;
+				signal(s);
+			}
+			}
+		}
+	}
+				
+}
+
+ 
+
+ 
+int count = 0;
+ 
+void main()
+{
+    int ch,pno=0,cno=0;
+    
+    hs = NULL;
+    hd=NULL;
+    temp = temp1 = NULL;
+s.a=1;
+delay.a=0;
+pno++;
+producer(pno);
+cno++;
+consumer(cno);
+}
+ 
+ //////Passing of objects to functions and assigning a "a" to  semaphore object
