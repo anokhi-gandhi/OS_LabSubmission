@@ -1,4 +1,4 @@
-public class ProducerConsumer {
+public class ProducerConsumer_Monitor {
    public static void main(String[] args) {
       monitor c = new monitor();
        Consumer c1 = new Consumer(c, 1);
@@ -18,6 +18,11 @@ public class ProducerConsumer {
       p1.start(); 
       System.out.print("\nProducer 2 arriving\n");
        p2.start();  
+	try{
+	p2.sleep(2000);
+		}
+	catch(Exception e)
+	{}
 	 System.out.print("\nProducer 3 arriving\n");
       p3.start();     
    }
@@ -29,7 +34,7 @@ class monitor {
       while (available == false) {
          try {
             wait();
-            System.out.print("\nConsumer waiting for Producer\n");
+            System.out.print("\nConsumer waiting for Producer \n");
          }
          catch (InterruptedException e) {
          }
