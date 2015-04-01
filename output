@@ -1,0 +1,123 @@
+zeee
+zammpp
+z1
+z2
+hello
+world
+name
+order
+anokhi
+zeee
+world
+hello
+world
+name
+order
+anokhi
+zeee
+LINUX LAB- 3 ASSIGNMENT
+
+
+5. To list all the files in the present working directory including the hidden files. 
+6. To show all the files in the subdirectories of a directory.
+7. To make changes into environmental variables.
+8. To sort the lines of a file into reverse order.
+9. To create a hard link to myfile.txt in the current directory assuming that it is not public_html.
+10. To search for a certain pattern in the files existing in the current directory.
+
+Shell scripts:
+4. Write a shell script to find greatest of two. Script must consider the case where two numbers are equal.
+7. Write a shell script which displays January if we enter Jan, Janu, Janua or January.(use of case)
+8. Write a shell script to generate Fibonacci series.
+
+
+.
+..
+employee2.dat
+employee.dat
+exampletext.txtt
+lab_assignment_03.docx
+.~lock.lab_assignment_03.docx#
+output
+shellScript10.sh
+shellScript10.sh~
+ShellScript10.sh~
+shellScript1.sh
+shellScript1.sh~
+shellScript2.sh
+shellScript2.sh~
+shellScript3.sh
+shellScript3.sh~
+shellScript4.sh
+shellScript4.sh~
+shellScript5.sh
+shellScript5.sh~
+shellScript6.sh
+shellScript6.sh~
+shellScript7.sh
+shellScript7.sh~
+shellScript8.sh
+shellScript8.sh~
+shellScript9.sh
+shellScript9.sh~
+t1.txt
+t2.txt
+temp1.txt
+temp1.txt~
+temp2.txt
+temp2.txt~
+temp3.txt
+UNIX_Commands
+UNIX_Commands.sh
+UNIX_Commands.sh~
+UserVisits.dat
+.:
+employee2.dat
+employee.dat
+exampletext.txtt
+lab_assignment_03.docx
+output
+shellScript10.sh
+shellScript10.sh~
+ShellScript10.sh~
+shellScript1.sh
+shellScript1.sh~
+shellScript2.sh
+shellScript2.sh~
+shellScript3.sh
+shellScript3.sh~
+shellScript4.sh
+shellScript4.sh~
+shellScript5.sh
+shellScript5.sh~
+shellScript6.sh
+shellScript6.sh~
+shellScript7.sh
+shellScript7.sh~
+shellScript8.sh
+shellScript8.sh~
+shellScript9.sh
+shellScript9.sh~
+t1.txt
+t2.txt
+temp1.txt
+temp1.txt~
+temp2.txt
+temp2.txt~
+temp3.txt
+UNIX_Commands
+UNIX_Commands.sh
+UNIX_Commands.sh~
+UserVisits.dat
+zeee
+world
+order
+name
+hello
+anokhi
+t1.txt:zeee
+t1.txt:zammpp
+t2.txt:z1
+t2.txt:z2
+temp1.txt:zeee
+temp3.txt:zeee

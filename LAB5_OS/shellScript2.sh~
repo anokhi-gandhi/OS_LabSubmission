@@ -1,0 +1,4 @@
+echo "input a string"
+read str
+st = echo $str | rev 
+echo $st 

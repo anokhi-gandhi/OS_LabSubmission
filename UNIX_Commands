@@ -1,0 +1,13 @@
+1. cat ./*.txt
+2. mozilla
+3. grep -v and exampletext.txtt
+4. gzip *.dat
+   gunzip *.dat.gz
+5. ls -a
+6. ls -R
+7. MAIL=anokhi.gandhi@iet.ahduni.edu.in
+   export MAIL
+8. sort -r temp1.txt
+9. ln /home/anokhi/Documents/IET/LAB3_OS/temp1.txt /home/anokhi/Documents/IET/LAB3_OS/temp3.txt
+10. grep "z" *.txt
+

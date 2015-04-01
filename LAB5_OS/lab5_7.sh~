@@ -1,0 +1,3 @@
+echo "Enter an alphabet"
+read n
+ls  $n*
