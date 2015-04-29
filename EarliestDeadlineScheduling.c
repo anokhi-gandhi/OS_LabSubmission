@@ -1,4 +1,4 @@
-//LAB12
+//LAB11
 //Earliest Deadline First Scheduling Algorithm
 //Assumption: The algorithm is implemented as non-preemptive algorithm.
 //	      Here if the process starts before its deadline(completion time) but would end after its deadline goes that is it has a greater execution time than that processes are allowed to execute.
