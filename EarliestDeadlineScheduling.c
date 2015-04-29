@@ -1,3 +1,4 @@
+//LAB11
 //Earliest Deadline First Scheduling Algorithm
 //Assumption: The algorithm is implemented as non-preemptive algorithm.
 //	      Here if the process starts before its deadline(completion time) but would end after its deadline goes that is it has a greater execution time than that processes are allowed to execute.
@@ -26,12 +27,9 @@ void main()
  
  for(i=0;i<noOfProc;i++)
  {
- 	printf("\nEnter start time,execution time and Deadline of process %d",i+1);
- 	scanf("%d,%d,%d", &start[i],&exec[i],&deadline[i]);
- 	//printf("\nEnter execution time of process %d",i+1);
- 	//scanf("%d",&exec[i]);
- 	//printf("\nEnter Deadline that is the completion time of process %d",i+1);
- 	//scanf("%d", &deadline[i]);
+ 	printf("\nEnter start time,execution time and Deadline of process %d:",i+1);
+ 	scanf("%d %d %d", &start[i],&exec[i],&deadline[i]);
+
  	deadline2[i]=deadline[i];
  }
 
@@ -71,6 +69,7 @@ void main()
  		proc[l]=i+1;
  	}
  }
+ //Schedule process according to the earliest Deadline
  i=0;
  int j,p;
  printf("\n ProcessNo	StartTime	EndTime		Deadline	Executed/Missed\n");
@@ -84,7 +83,6 @@ while(i<noOfProc)
  	        	if(time_quantum==start[i])
  	        	{
  	        		p=i;
- 	        		//count=time_quantum+exec[i];
  	        		count=time_quantum;
  				if(count>deadline[i])
  				{
@@ -121,7 +119,6 @@ while(i<noOfProc)
  	}
  	else
  	{
- 		//count=time_quantum+exec[i];
  		count=time_quantum;
  		if(count>deadline[i])
  		{
@@ -139,50 +136,6 @@ while(i<noOfProc)
  		
  	}
  }
-// printf("\n %d\t,%d\t,%d\t",proc[0],proc[1],proc[2]);
- 
- 
- /*while(end_false)
- {
-	for(i = 0; i< N_proc;i++)
-	{
-	
-		if(start[i] == time_quatum || exec[index] == 0)
-		{
-			
-			
-			if(flag[i] != 1)
-			{
-				if(((deadline[i] - time_quatum) - exec[i]) < smallest_slack)
-				{
-					smallest_slack = (deadline[i] - time_quatum);
-					//printf("\n min deadline  %d, proc %d  , time %d, difference %d", smallest_slack, i+1, time_quatum,(deadline[i] - time_quatum) );
-					index            = i;
-				}
-			}
-		}
-		
-		
-	}
-	if(exec[index] == 0)
-			{
-				smallest_slack = 10000;
-				index=-1;
-			}
-	if(index!=-1)
-	{
-	printf("\n From time quantum %d to %d, proc %d", time_quatum,time_quatum+1, index+1);
-	exec[index]--;
-	if(exec[index] == 0)
-	{
-		flag[index]=1;
-		count++;
-	}
-	}
-	if(count == N_proc)
-		end_false = 0;
-	
- time_quatum++;
- }*/
+printf("\n");
  
 }
